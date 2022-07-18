@@ -31,20 +31,12 @@ def findLowestBranch(game_image, threshold):
     locs_right = np.where(res_right >= threshold)
 
     if len(locs_left[0]) > 0:
-        # h, w = left_danger_template.shape[:2]
-        # for pt in zip(*locs_left[::-1]):
-        #     cv.rectangle(game_image, pt, (pt[0] + w, pt[1] + h), (0,0,255), 2)
         locs_left = np.array([e for e in zip(*locs_left[::-1])])
         left_branch = max(locs_left,key=itemgetter(1))
         
     if len(locs_right[0]) > 0:
-        # h, w = right_danger_template.shape[:2]
-        # for pt in zip(*locs_right[::-1]):
-        #     cv.rectangle(game_image, pt, (pt[0] + w, pt[1] + h), (0,0,255), 2)
         locs_right = np.array([e for e in zip(*locs_right[::-1])])
         right_branch = max(locs_right,key=itemgetter(1))
-    
-    # cv.imwrite(f"tests/game_{count}.png", game_image)
 
     if len(locs_left[0]) > 0 and len(locs_right[0]) > 0:
         if left_branch[1] > right_branch[1]:
