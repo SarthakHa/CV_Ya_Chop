@@ -1,5 +1,9 @@
 # CV Ya Chop
 
+## Demo
+Example:
+Auto-starting the game:
+![](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Start.gif)
 
 ## Getting Started
 To run the program,
@@ -26,5 +30,5 @@ pytest
 ## Performance
 Best score achieved = 139
 
-## Possible future achievements
+## Possible future improvements
 A delay is required to get the program to function. This is because when a wood block is kicked, a kicked off block animation runs. this blocks some of the detection and can lead to an erenous templateMatching output. There are potential ways to optimize so that this animation is not an issue.
