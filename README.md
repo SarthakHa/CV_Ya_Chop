@@ -1,9 +1,12 @@
 # CV Ya Chop
 
 ## Demo
-Example:
-Auto-starting the game:
+### Examples:
+The bot auto-starting the game:
 ![](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Start.gif)
+
+Playing the game:
+![](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Game.gif)
 
 ## Getting Started
 To run the program,
