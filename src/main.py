@@ -18,9 +18,14 @@ height = pyautogui.size()[1]
 
 monitor = {"top": 0, "left": 0, "width": width, "height": height}
 
+with mss.mss() as sct:
+    screen = sct.grab(monitor)
+    screen_width = screen.size[0]
+    screen_height = screen.size[1]
+
 def convert(x,y):
-    x = (width/2880) * x
-    y = (height/1800) * y
+    x = (width/screen_width) * x
+    y = (height/screen_height) * y
     return x,y
 
 def findLowestBranch(game_image, threshold):
