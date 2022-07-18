@@ -2,11 +2,15 @@
 
 ## Demo
 ### Examples:
-The bot auto-starting the game:
-![](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Start.gif)
 
-Playing the game:
-![](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Game.gif)
+| Bot auto-starting the game |
+|------------------------------------------------------------------------|
+|![Starting the game](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Start.gif)| 
+
+| Bot playing the game |
+|------------------------------------------------------------------------|
+|![Playing Game](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Game.gif)| 
+
 
 ## Getting Started
 To run the program,
