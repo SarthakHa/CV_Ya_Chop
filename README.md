@@ -3,13 +3,9 @@
 ## Demo
 ### Examples:
 
-| Bot auto-starting the game |
-|------------------------------------------------------------------------|
-|![Starting the game](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Start.gif)| 
-
-| Bot playing the game |
-|------------------------------------------------------------------------|
-|![Playing Game](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Game.gif)| 
+| Bot auto-starting the game | Bot playing the game
+|----------------|----------------|
+|![Starting the game](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Start.gif)| ![Playing Game](https://github.com/SarthakHa/CV_Ya_Chop/blob/main/gifs/Kick_Game.gif) |
 
 
 ## Getting Started
